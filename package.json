@@ -1,0 +1,26 @@
+{
+  "name": "typecho-tailwind-starter",
+  "version": "0.1.0",
+  "description": "This is a starter to create typecho theme with tailwind css.",
+  "author": "Percy <kecrily@gmail.com.>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "devDependencies": {
+    "axios": "^0.21",
+    "browser-sync": "^2.27.3",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.6",
+    "laravel-mix-tailwind": "^0.1.2",
+    "lodash": "^4.17.19",
+    "postcss": "^8.1.14",
+    "tailwindcss": "^2.2.4"
+  }
+}
